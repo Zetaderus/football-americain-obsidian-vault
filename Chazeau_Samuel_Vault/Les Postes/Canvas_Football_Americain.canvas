@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"fd72b671188117f1","type":"group","x":-900,"y":-660,"width":395,"height":810,"label":"Offense"},
+		{"id":"ae6ecbfa5b1cf78c","type":"group","x":125,"y":-605,"width":320,"height":705,"label":"Defense"},
+		{"id":"132d5bb3b37db236","type":"file","file":"Les Postes/Offense/Offensive line (OL).md","x":-880,"y":-270,"width":280,"height":50},
+		{"id":"3974e47763afe7f4","type":"file","file":"Les Postes/Offense/Running back (RB).md","x":-880,"y":-434,"width":320,"height":50},
+		{"id":"e1d5e62f151ddb0d","type":"file","file":"Les Postes/Defense/Safeties (S).md","x":160,"y":-130,"width":259,"height":50},
+		{"id":"8935d74481e363fc","type":"file","file":"Les Postes/Defense/Cornerbacks (CB).md","x":145,"y":-345,"width":274,"height":50},
+		{"id":"d6ce5ac1081b19bf","type":"file","file":"Les Postes/Offense/Tight end (TE).md","x":-880,"y":-590,"width":285,"height":55},
+		{"id":"79ed250644d33ffc","type":"text","text":"\n MATCH DE FOOTBALL AMÉRICAIN\nObjectif : marquer plus de points que l’adversaire\n","x":-358,"y":-800,"width":320,"height":100},
+		{"id":"207f2afea10cdcc9","type":"file","file":"Joueurs/Grands_Joueurs/Tom Brady.md","x":-1352,"y":-91,"width":317,"height":196},
+		{"id":"5bd9ef96cc319fa3","type":"file","file":"Joueurs/Grands_Joueurs/Rob Gronkowski.md","x":-1352,"y":-590,"width":300,"height":70},
+		{"id":"27010e2654cdf41b","type":"file","file":"Les Postes/Offense/Quarterback (QB).md","x":-880,"y":-80,"width":355,"height":50},
+		{"id":"64853aed984af1ec","type":"file","file":"Les Postes/Offense/Wide receivers (WR).md","x":-880,"y":80,"width":285,"height":50},
+		{"id":"2077e03dbe26f51e","type":"file","file":"Les Postes/Defense/Linebackers (LB).md","x":160,"y":26,"width":265,"height":54},
+		{"id":"14d7a4986a56a9c7","type":"file","file":"Les Postes/Defense/Defensive line (DL).md","x":155,"y":-585,"width":269,"height":50},
+		{"id":"6060526acd02b3ae","type":"file","file":"Joueurs/Grands_Joueurs/Joe Montana.md","x":-482,"y":71,"width":284,"height":59},
+		{"id":"0acf41bbaf8ffa33","type":"file","file":"Joueurs/Grands_Joueurs/Odell Beckman Jr. (OBJ).md","x":-358,"y":250,"width":320,"height":70},
+		{"id":"77f925b16896e005","type":"file","file":"Joueurs/Grands_Joueurs/Aaron Donald.md","x":600,"y":-484,"width":352,"height":50}
+	],
+	"edges":[
+		{"id":"91e8452da18a93f7","fromNode":"27010e2654cdf41b","fromSide":"right","toNode":"6060526acd02b3ae","toSide":"top","color":"5"},
+		{"id":"e712eaffdf234751","fromNode":"fd72b671188117f1","fromSide":"right","toNode":"79ed250644d33ffc","toSide":"left","color":"5"},
+		{"id":"068a97cb87899d47","fromNode":"ae6ecbfa5b1cf78c","fromSide":"left","toNode":"79ed250644d33ffc","toSide":"right","color":"1"},
+		{"id":"514c933b56a4e90e","fromNode":"27010e2654cdf41b","fromSide":"left","toNode":"207f2afea10cdcc9","toSide":"right","color":"5"},
+		{"id":"dba5090ede0a1fef","fromNode":"64853aed984af1ec","fromSide":"right","toNode":"0acf41bbaf8ffa33","toSide":"left","color":"5"},
+		{"id":"c8a35fd07e56fcf4","fromNode":"14d7a4986a56a9c7","fromSide":"right","toNode":"77f925b16896e005","toSide":"left","color":"1"},
+		{"id":"091260a5e16165ed","fromNode":"d6ce5ac1081b19bf","fromSide":"left","toNode":"5bd9ef96cc319fa3","toSide":"right","color":"5"}
+	]
+}
